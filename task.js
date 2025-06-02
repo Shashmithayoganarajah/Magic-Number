@@ -17,7 +17,7 @@ document.querySelector('.check').addEventListener('click', () => {
   if (userGuess === targetNumber) {
     updateMessage('You nailed it!');
     document.querySelector('.number').textContent = targetNumber;
-    document.body.style.backgroundColor = '#60b347';
+    document.body.style.backgroundColor = '#3498db';
     document.querySelector('.number').style.width = '30rem';
 
     if (currentScore > bestScore) {
